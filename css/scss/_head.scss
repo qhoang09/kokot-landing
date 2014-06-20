@@ -19,16 +19,7 @@
 	margin-top:-20px;
 }
 
-.head-bouton-inscrire {
 
-	font-size:1em;
-	width:60%;
-	background-color: rgba(255,255,255,.25);
-	padding: 20px;
-	padding-top:0px;
-	border-radius: 8px;
-
-}
 
 .head-titre{
 	margin-top:15%;
@@ -40,53 +31,74 @@
 	text-align: center;
 }
 
+.head-bouton-inscrire {
+
+
+}
 .mc_embed_signup {
 
 }
 
 .head-form{
+	height:80px;
+	font-size:1em;
+	width:60%;
 	background-color: rgba(255,255,255,.25);
-padding: 15px;
-border-radius: 8px;
+	padding: 20px;
+	padding-top:0px;
+	border-radius: 8px;
+
+	position:relative;
+
 
 }
 
-.bouton-essayer {
 
-	background-color: rgba(255,255,255,.25);
-	padding: 15px;
+.validate {
+
+
+}
+
+
+
+.bouton-essayer {
 	border-radius: 8px;
 	color: #fff;
 	background-color: $couleur-vert-fonce;
 	border-color: $couleur-vert-fonce;
 	font-size:17px;
 
-	position:relative;
+
+	
+	position:absolute;
+	top:10px;
 	right:0;
-	left:0;
-	top:0;
-	bottom:0;
+	bottom:10px;
+
+	height:80%;
 	width:300px;
 
 }
 
 .bouton-essayer:hover{
-	font-size:17px;
 	color: #fff;
 	background-color: rgba(0,47,47,0.7);
 	border-color: rgba(0,47,47,0.7);
+
 
 }
 
 .champ-email {
 
 	font-size:17px;
-	position:relative;
-	top:0;
-	left:0;
-	bottom:0;
+
+	position:absolute;
+	top: 15px;
+	left:15px;
 	right:300px;
-	width:60%;
+	padding: 0;
+	margin: 0;
+	font-size: 0;
 }
 
 form#mc-embedded-subscribe-form div {
@@ -99,5 +111,5 @@ form#mc-embedded-subscribe-form input#mce-EMAIL{
 	padding-left: 15px;
 	padding-top: 12px;
 	padding-bottom: 12px;
-	width:100%
+	width:100%;
 }

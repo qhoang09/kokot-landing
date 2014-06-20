@@ -4,7 +4,6 @@ $couleur-beige-clair:#EFECCA;
 $couleur-vert-clair:#046380;
 $couleur-vert-fonce:#002F2F;
 
-@import 'nav';
 
 @import 'head';
 
@@ -15,6 +14,7 @@ $couleur-vert-fonce:#002F2F;
 @import 'pricing';
 @import 'footer';
 @import 'navbar';
+@import 'fonctionnalites';
 
 .bouton-cte{
 
