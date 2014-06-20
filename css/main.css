@@ -1,4 +1,4 @@
-/* line 1, scss/_head.scss */
+/* line 1, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_head.scss */
 #section-head {
   top: 0;
   left: 0;
@@ -10,7 +10,7 @@
   background-size: cover;
 }
 
-/* line 14, scss/_head.scss */
+/* line 14, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_head.scss */
 .head-img-background {
   background-position: 0px,250px;
   width: 100%;
@@ -18,7 +18,7 @@
   margin-top: -20px;
 }
 
-/* line 22, scss/_head.scss */
+/* line 22, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_head.scss */
 .head-bouton-inscrire {
   font-size: 1em;
   width: 60%;
@@ -28,7 +28,7 @@
   border-radius: 8px;
 }
 
-/* line 33, scss/_head.scss */
+/* line 33, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_head.scss */
 .head-titre {
   margin-top: 15%;
   font-size: 50px;
@@ -39,14 +39,14 @@
   text-align: center;
 }
 
-/* line 47, scss/_head.scss */
+/* line 47, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_head.scss */
 .head-form {
   background-color: rgba(255, 255, 255, 0.25);
   padding: 15px;
   border-radius: 8px;
 }
 
-/* line 54, scss/_head.scss */
+/* line 54, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_head.scss */
 .bouton-essayer {
   background-color: rgba(255, 255, 255, 0.25);
   padding: 15px;
@@ -63,7 +63,7 @@
   width: 300px;
 }
 
-/* line 73, scss/_head.scss */
+/* line 73, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_head.scss */
 .bouton-essayer:hover {
   font-size: 17px;
   color: #fff;
@@ -71,7 +71,7 @@
   border-color: rgba(0, 47, 47, 0.7);
 }
 
-/* line 82, scss/_head.scss */
+/* line 81, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_head.scss */
 .champ-email {
   font-size: 17px;
   position: relative;
@@ -82,12 +82,12 @@
   width: 60%;
 }
 
-/* line 93, scss/_head.scss */
+/* line 92, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_head.scss */
 form#mc-embedded-subscribe-form div {
   display: inline-block;
 }
 
-/* line 98, scss/_head.scss */
+/* line 97, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_head.scss */
 form#mc-embedded-subscribe-form input#mce-EMAIL {
   font-size: 18px;
   padding-left: 15px;
@@ -96,105 +96,105 @@ form#mc-embedded-subscribe-form input#mce-EMAIL {
   width: 100%;
 }
 
-/* line 1, scss/_valeur.scss */
+/* line 1, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_valeur.scss */
 #section-valeur {
   background-color: #a7a37e;
 }
 
-/* line 1, scss/_comptable.scss */
+/* line 1, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_comptable.scss */
 #section-comptable {
   color: #efecca;
   background-color: #002f2f;
 }
 
-/* line 1, scss/_valeur.scss */
+/* line 1, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_valeur.scss */
 #section-valeur {
   background-color: #a7a37e;
 }
 
-/* line 4, scss/_scenario.scss */
+/* line 4, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_scenario.scss */
 #features_1 {
   background-color: #efecca;
 }
 
-/* line 12, scss/_scenario.scss */
+/* line 12, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_scenario.scss */
 #features1a_image {
   position: absolute;
 }
 
-/* line 18, scss/_scenario.scss */
+/* line 18, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_scenario.scss */
 #features1b_image {
   position: relative;
 }
 
-/* line 23, scss/_scenario.scss */
+/* line 23, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_scenario.scss */
 #features_1_content {
   color: black;
   margin-top: 10%;
 }
 
-/* line 29, scss/_scenario.scss */
+/* line 29, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_scenario.scss */
 #features_2 {
   background-color: #efecca;
 }
 
-/* line 34, scss/_scenario.scss */
+/* line 34, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_scenario.scss */
 #features_2_content {
   color: black;
   margin-top: 10%;
 }
 
-/* line 40, scss/_scenario.scss */
+/* line 40, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_scenario.scss */
 #features_3 {
   background-color: #efecca;
 }
 
-/* line 46, scss/_scenario.scss */
+/* line 46, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_scenario.scss */
 #features_3_content {
   color: black;
   margin-top: 10%;
 }
 
-/* line 52, scss/_scenario.scss */
+/* line 52, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_scenario.scss */
 #features_4 {
   background-color: #efecca;
 }
 
-/* line 56, scss/_scenario.scss */
+/* line 56, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_scenario.scss */
 #features_4_content {
   color: black;
   margin-top: 10%;
 }
 
-/* line 1, scss/_pricing.scss */
+/* line 1, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_pricing.scss */
 #section-pricing {
   background-color: #002f2f;
   color: #efecca;
 }
 
-/* line 1, scss/_footer.scss */
+/* line 1, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_footer.scss */
 footer {
   background-color: #efecca;
 }
 
-/* line 9, scss/_footer.scss */
+/* line 9, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_footer.scss */
 #newsletter {
   background-color: #a7a37e;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 16, scss/_footer.scss */
+/* line 16, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_footer.scss */
 .social-media-icon {
   display: block;
 }
 
-/* line 21, scss/_footer.scss */
+/* line 21, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_footer.scss */
 #footer-main ul {
   list-style: none;
 }
 
-/* line 26, scss/_footer.scss */
+/* line 26, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_footer.scss */
 .sm-icon {
   opacity: 0.6;
   padding: 0px;
@@ -202,13 +202,13 @@ footer {
   height: 50px;
 }
 
-/* line 34, scss/_footer.scss */
+/* line 34, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_footer.scss */
 .sm-icon:hover {
   opacity: 1;
   border-color: red;
 }
 
-/* line 40, scss/_footer.scss */
+/* line 40, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_footer.scss */
 .social-media-bubble {
   background: #b1b1b1;
   padding-top: 15px;
@@ -222,12 +222,12 @@ footer {
   color: #efecca;
 }
 
-/* line 54, scss/_footer.scss */
+/* line 54, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_footer.scss */
 .smooth {
   color: #046380;
 }
 
-/* line 1, scss/_navbar.scss */
+/* line 1, /Users/qhoang/Documents/ProjetsWeb/Kokot-Landing/css/scss/_navbar.scss */
 .navbar-kokot {
   position: absolute;
   top: 0;
@@ -245,7 +245,7 @@ footer {
 
 /* line 25, scss/main.scss */
 #CTE-apres-pricing {
-  background-color: #002f2f;
+  background-color: #a7a37e;
   padding-bottom: 10px;
 }
 
