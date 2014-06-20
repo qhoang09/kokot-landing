@@ -1,16 +1,13 @@
 #section-head{
 
-top: 0;
-left: 0;
-right: 0;
-bottom: 0;
-overflow: hidden;
-max-height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow: hidden;
+	max-height: 100%;
 	background-image:url(../images/bunkr.jpg);
-		background-size:cover;
-		
-
-
+	background-size:cover;
 }
 
 
@@ -25,11 +22,16 @@ max-height: 100%;
 .head-bouton-inscrire {
 
 	font-size:1em;
+	width:60%;
+	background-color: rgba(255,255,255,.25);
+	padding: 20px;
+	padding-top:0px;
+	border-radius: 8px;
 
 }
 
 .head-titre{
-	margin-top:5%;
+	margin-top:15%;
 	font-size:50px;
 	line-height: 60px;
 	color:$couleur-beige-clair;
@@ -47,4 +49,56 @@ max-height: 100%;
 padding: 15px;
 border-radius: 8px;
 
+}
+
+.bouton-essayer {
+
+	background-color: rgba(255,255,255,.25);
+	padding: 15px;
+	border-radius: 8px;
+	color: #fff;
+	background-color: $couleur-vert-fonce;
+	border-color: $couleur-vert-fonce;
+	font-size:17px;
+
+	position:relative;
+	right:0;
+	left:0;
+	top:0;
+	bottom:0;
+	width:300px;
+
+}
+
+.bouton-essayer:hover{
+	font-size:17px;
+	color: #fff;
+	background-color: rgba(0,47,47,0.7);
+	border-color: rgba(0,47,47,0.7);
+
+
+}
+
+.champ-email {
+
+	font-size:17px;
+	position:relative;
+	top:0;
+	left:0;
+	bottom:0;
+	right:300px;
+	width:60%;
+}
+
+form#mc-embedded-subscribe-form div {
+	display: inline-block;
+
+}
+
+form#mc-embedded-subscribe-form input#mce-EMAIL{
+	font-size:18px;
+	padding-left: 15px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	width:100%
 }
