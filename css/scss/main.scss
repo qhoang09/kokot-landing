@@ -1,8 +1,29 @@
-$couleur: orange;
+$couleur-beige:#E6E2AF;
+$couleur-beige-fonce:#A7A37E;
+$couleur-beige-clair:#EFECCA;
+$couleur-vert-clair:#046380;
+$couleur-vert-fonce:#002F2F;
 
-.hello {
+@import 'nav';
 
-	.world{
-		color:$couleur;
-	}
+@import 'head';
+
+@import 'valeur';
+@import 'comptable';
+@import 'valeur';
+@import 'scenario';
+@import 'pricing';
+@import 'footer';
+
+.bouton-cte{
+
+	padding-top:10px;
 }
+
+
+#CTE-apres-pricing{
+
+	background-color:$couleur-vert-fonce;
+	padding-bottom:10px;
+}
+

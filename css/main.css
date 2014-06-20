@@ -1,4 +1,114 @@
-/* line 5, scss/main.scss */
-.hello .world {
-  color: orange;
+/* line 1, scss/_head.scss */
+.head-img-background {
+  background-image: url(../images/head.jpg);
+  background-size: cover;
+  background-position: 0px,250px;
+  width: 100%;
+  height: 400px;
+}
+
+/* line 10, scss/_head.scss */
+.head-bouton-inscrire {
+  font-size: 2em;
+}
+
+/* line 16, scss/_head.scss */
+.head-titre {
+  margin-top: 25%;
+  font-size: 2em;
+  color: #efecca;
+}
+
+/* line 1, scss/_valeur.scss */
+#section-valeur {
+  background-color: #a7a37e;
+}
+
+/* line 1, scss/_comptable.scss */
+#section-comptable {
+  color: #efecca;
+  background-color: #002f2f;
+}
+
+/* line 1, scss/_valeur.scss */
+#section-valeur {
+  background-color: #a7a37e;
+}
+
+/* line 2, scss/_scenario.scss */
+#features_1 {
+  background-color: #efecca;
+}
+
+/* line 8, scss/_scenario.scss */
+#features1a_image {
+  position: absolute;
+}
+
+/* line 14, scss/_scenario.scss */
+#features1b_image {
+  position: relative;
+}
+
+/* line 19, scss/_scenario.scss */
+#features_1_content {
+  color: black;
+  margin-top: 10%;
+}
+
+/* line 25, scss/_scenario.scss */
+#features_2_content {
+  color: black;
+  margin-top: 10%;
+}
+
+/* line 31, scss/_scenario.scss */
+#features_3_content {
+  color: black;
+  margin-top: 10%;
+}
+
+/* line 37, scss/_scenario.scss */
+#features_4_content {
+  color: black;
+  margin-top: 10%;
+}
+
+/* line 1, scss/_pricing.scss */
+#section-pricing {
+  background-color: #002f2f;
+  color: #efecca;
+}
+
+/* line 1, scss/_footer.scss */
+footer {
+  background-color: #efecca;
+}
+
+/* line 7, scss/_footer.scss */
+#newsletter {
+  background-color: #a7a37e;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* line 14, scss/_footer.scss */
+.social-media-icon {
+  display: block;
+}
+
+/* line 19, scss/_footer.scss */
+#footer-main ul {
+  list-style: none;
+}
+
+/* line 18, scss/main.scss */
+.bouton-cte {
+  padding-top: 10px;
+}
+
+/* line 24, scss/main.scss */
+#CTE-apres-pricing {
+  background-color: #002f2f;
+  padding-bottom: 10px;
 }

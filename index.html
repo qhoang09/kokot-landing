@@ -76,23 +76,24 @@
 <!-- ============   HEAD - titre + photo    ============ -->
 <!-- ==================================================== -->
   <section>
-    <div class="container img-header">
-      <img alt="Photo head" class="img-responsive center-block" src="images/head.jpg" /></p>
+    <div class="container head-img-background">
 
-      <div class="row position-absolute">
+      <div class="row">
+ 
           <div class="col-md-6">
             
           </div>
           <div class="col-md-6">
-            <h1 class="text-center head-titre position-absolute">La plus simple des solutions pour vos notes de frais</h1>
-          </div>
-
-          <div class="row-fluid bouton-inscrire">
-            <div class="col-md-12">
+            <h1 class="text-center head-titre">La plus simple des solutions pour vos notes de frais</h1>
+            <div class="row-fluid head-bouton-inscrire">
+            <div>
               <p class="signup text-center">
                 <a href="http://kokotweb.herokuapp.com/users/sign_in" class="btn btn-success btn-inscrire position-absolute">Essayez gratuitement Kokot'</a><br />
               </p>
              </div>
+          </div>
+
+          
           </div>
       </div>
     </div>
@@ -169,7 +170,7 @@
 <!-- ============Section sur le scénario      ============ -->
 <!-- ==================================================== -->
 
-  <section id="features_1">
+  <section id="scenario">
     <div class="container">
       <div class="row">
         <div class="col-sm-6 col-md-6 col-lg-6">
@@ -243,24 +244,28 @@
     <div class="container">
       <div class="row">
         <div id="pricing" class="pricing">
-          <h2 class="text-center font-beige"> Pricing </h2>               
-          <p class="text-center font-beigefonce">5€ par utilisateur par mois </p>
+          <h2 class="text-center"> Pricing </h2>               
+          <p class="text-center">5€ par utilisateur par mois </p>
         </div> 
       </div>    
     </div>
   </section>
 
-  <!-- Call to action après le scénario -->
+  <!-- "Call to essayer" après le scénario -->
+  <section id="CTE-apres-pricing"> 
 
-  <div class="container row-fluid margin-bottom margin-top">
-    <div class="row">
-      <div class="col-md-12">
-        <p class="signup text-center">
-          <a href="http://kokotweb.herokuapp.com/users/sign_in" class="btn btn-success btn-inscrire">Essayez gratuitement Kokot'</a><br />
-        </p>
+    <div class="container row-fluid margin-bottom margin-top bouton-cte">
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center">
+            <a href="http://kokotweb.herokuapp.com/users/sign_in" class="btn btn-success btn-inscrire">Essayez gratuitement Kokot'</a><br />
+          </p>
+        </div>
       </div>
-    </div>
-    </div>  
+      </div>  
+
+  </section> 
+
       
 
 
@@ -268,6 +273,7 @@
 <!-- ============           Footer          ============ -->
 <!-- ==================================================== -->
   <footer xmlns="http://www.w3.org/1999/html">
+
   <div id="newsletter" class="container-fluid">
     <div class="container">
       <div class="row">
@@ -347,13 +353,25 @@
               <p>Connect with us.</p>
             </div>
 
-            <ul id="social-media-icons">
-              <li><a href="https://twitter.com/mykokot" target="_blank" class="sm-icon"><img alt="Twitter" class="img-responsive" src="images/twitter-logo.png" /></a></li>
-              <li><a href="https://www.facebook.com/kokot" target="_blank" class="sm-icon"><img alt="Facebook" class="img-responsive" src="images/facebook-logo.png" /></a></li>
-              <li><a href="" target="_blank" class="sm-icon" rel="publisher"><img alt="Google-plus" class="img-responsive" src="images/google-logo.png" /></a></li>
-              <li><a href="http://www.linkedin.com/company/mykokot" target="_blank" class="sm-icon"><img alt="Linkedin" class="img-responsive" src="images/linkedin-logo.png" /></a></li>
-            </ul>
-          </div>
+            <div class"row">
+              <div id="social-media-icons" class="col-sm-12">
+                <div class="col-sm-3">
+                  <a href="https://twitter.com/mykokot" target="_blank"><img alt="Twitter" class="img-responsive" src="images/twitter-logo.png" /></a>
+                </div>
+
+                <div class="col-sm-3">
+                  <a href="https://www.facebook.com/kokot" target="_blank"><img alt="Facebook" class="img-responsive" src="images/facebook-logo.png" /></a>
+                </div>
+
+                <div class="col-sm-3">
+                 <a href="" target="_blank" class="sm-icon" rel="publisher"><img alt="Google-plus" class="img-responsive" src="images/google-logo.png" /></a>
+                </div>
+
+                <div class="col-sm-3">
+                  <a href="http://www.linkedin.com/company/mykokot" target="_blank"><img alt="Linkedin" class="img-responsive" src="images/linkedin-logo.png" /></a>
+                </div>
+              </div>
+            </div>
         </div>
       </div>
     </div>
