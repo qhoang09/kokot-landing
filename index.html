@@ -28,73 +28,99 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-    <header>
-    
-  <!-- Nav bar -->
-  <nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Kokot'</a>
-      </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#section-scenario-employe">Produit</a></li>
-        <li><a href="#section-pricing">Pricing</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#"></a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
-      </ul>
-      
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="http://kokotweb.herokuapp.com/users/sign_in">Connexion</a></li>
-      
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+
+
+
+      <!-- ==================================================== -->
+      <!-- =================      Navbar   =============== -->
+      <!-- ==================================================== -->
+      <header>
+    
+        <nav class="navbar navbar-default navbar-kokot" role="navigation">
+          <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Kokot'</a>
+            </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#section-scenario-employe">Produit</a></li>
+              <li><a href="#section-pricing">Pricing</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#"></a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+            </ul>
+            
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="http://kokotweb.herokuapp.com/users/sign_in">Connexion</a></li>
+            
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
   
-</header>
+    </header>
 <!-- ==================================================== -->
 <!-- ============   HEAD - titre + photo    ============ -->
 <!-- ==================================================== -->
-  <section>
+  <section id="section-head">
     <div class="container head-img-background">
 
       <div class="row">
- 
-          <div class="col-md-6">
-            
+
+        <h1 class="text-center head-titre">La plus simple des solutions pour vos notes de frais</h1>
+
+        <div class="row-fluid head-bouton-inscrire">
+
+      <!-- Begin MailChimp Signup Form -->
+          <div id="mc_embed_signup head-form">
+            <form action="http://mykokot.us8.list-manage.com/subscribe/post?u=b0eaa7f6dc2434e9d5e26535d&amp;id=17afa50538" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+              <div class="mc-field-group">
+                <label for="mce-EMAIL">Email<span class="asterisk">*</span>
+                </label>
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+              </div>
+
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_b0eaa7f6dc2434e9d5e26535d_17afa50538" tabindex="-1" value=""></div>
+                
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+            </form>
           </div>
-          <div class="col-md-6">
-            <h1 class="text-center head-titre">La plus simple des solutions pour vos notes de frais</h1>
-            <div class="row-fluid head-bouton-inscrire">
-              <div>
-                <p class="signup text-center">
-                  <a href="http://kokotweb.herokuapp.com/users/sign_in" class="btn btn-success btn-inscrire position-absolute">Essayez gratuitement Kokot'</a><br />
-                </p>
-               </div>
-           </div>
+
+        <!--End mc_embed_signup-->
+
+          <div class="border-btn-inscrire center-block">
+            <p class="signup text-center">
+              <a href="http://kokotweb.herokuapp.com/users/sign_in" class="btn btn-success btn-inscrire">Essayez gratuitement Kokot'</a><br />
+            </p>
+          </div>
+       </div>
 
           
-          </div>
       </div>
     </div>
   </section>
@@ -166,7 +192,7 @@
 <!-- ============Section sur le scénario      ============ -->
 <!-- ==================================================== -->
 
-  <section id="scenario">
+  <section id="features_1">
     <div class="container">
       <div class="row">
         <div class="col-sm-6 col-md-6 col-lg-6">
@@ -197,11 +223,10 @@
           
         </div>
       </div>
-    </div>
   </section>
 
   <!-- Section sur le scénario manager - visualisation --> 
-<section id="features_3">
+  <section id="features_3">
     <div class="container">
       <div class="row">
         <div class="col-sm-6 col-md-6 col-lg-6">
@@ -219,7 +244,7 @@
 
 <!-- Section sur le scénario comptable - reception --> 
 
-<section id="features_4">
+  <section id="features_4">
     <div class="container">
       <div class="row">
         <div id="features_4_content" class="col-sm-6 col-md-6 col-lg-6">
@@ -249,7 +274,6 @@
 
   <!-- "Call to essayer" après le scénario -->
   <section id="CTE-apres-pricing"> 
-
     <div class="container row-fluid margin-bottom margin-top bouton-cte">
       <div class="row">
         <div class="col-md-12">
@@ -259,7 +283,6 @@
         </div>
       </div>
       </div>  
-
   </section> 
 
       
@@ -314,24 +337,24 @@
             </ul>
             <ul class="col-sm-3">
               <li><h4>Produit</h4></li>
-              <li><a href="./produit.html">Notre promesse</a></li>
-              <li><a href="./produit.html#pricing">Pricing</a></li>
-              <li><a href="./produit.html#section-fonctionnalites">Fonctionnalités</a></li>
-              <li><a href="./produit.html#section-clients">Clients</a></li>
-              <li><a href="./produit.html#section-FAQ">FAQ</a></li>
+              <li><a href="./produit.html" class="smooth">Notre promesse</a></li>
+              <li><a href="./produit.html#pricing" class="smooth">Pricing</a></li>
+              <li><a href="./produit.html#section-fonctionnalites" class="smooth">Fonctionnalités</a></li>
+              <li><a href="./produit.html#section-clients" class="smooth">Clients</a></li>
+              <li><a href="./produit.html#section-FAQ" class="smooth">FAQ</a></li>
             </ul>
             <ul class="col-sm-3">
               <li><h4>Resources</h4></li>
-              <li><a href="./ressources.html#presse">Presse</a></li>
-              <li><a href="./ressources.html">Contact</a></li>
+              <li><a href="./ressources.html#presse" class="smooth">Presse</a></li>
+              <li><a href="./ressources.html" class="smooth">Contact</a></li>
             </ul>
             <ul class="col-sm-3">
               <li><h4>Kokot'</h4></li>
-              <li><a href="./kokot.html#section-kokot-histoire">Notre histoire</a></li>
-              <li><a href="./kokot.html#section-kokot-equipe">L'équipe</a></li>
-              <li><a href="./kokot.html#section-kokot-investisseurs">Investisseurs</a></li>
-              <li><a href="./kokot.html#section-kokot-carriere">Nous rejoindre</a></li>
-              <li><a href="./kokot.html">Blog</a></li>
+              <li><a href="./kokot.html#section-kokot-histoire" class="smooth">Notre histoire</a></li>
+              <li><a href="./kokot.html#section-kokot-equipe" class="smooth">L'équipe</a></li>
+              <li><a href="./kokot.html#section-kokot-investisseurs" class="smooth">Investisseurs</a></li>
+              <li><a href="./kokot.html#section-kokot-carriere" class="smooth">Nous rejoindre</a></li>
+              <li><a href="./kokot.html" class="smooth">Blog</a></li>
             </ul>
           </div>
 
@@ -379,7 +402,7 @@
             <a href="/"><img alt="Zenpayroll-footer-logo" src="//d1w32dwlo9psx6.cloudfront.net/assets/corporate/zenpayroll-footer-logo-f9ba605dfce8422f518fd676a96e7e21.png" /></a><br>
         </div>
         <div class="col-md-8">
-          <p class="copyright">&copy; Kokot', tous droits réservés.&nbsp;&nbsp;<a href="/privacy">Mentions légales</a></p>
+          <p class="copyright">&copy; Kokot', tous droits réservés.&nbsp;&nbsp;<a href="/privacy"  class="smooth">Mentions légales</a></p>
         </div>
       </div>
     </div>
@@ -387,9 +410,6 @@
 
       <hr>
 
-      <footer>
-        <p>&copy; Company 2014</p>
-      </footer>
     </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
 

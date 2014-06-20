@@ -14,6 +14,7 @@ $couleur-vert-fonce:#002F2F;
 @import 'scenario';
 @import 'pricing';
 @import 'footer';
+@import 'navbar';
 
 .bouton-cte{
 
@@ -25,5 +26,20 @@ $couleur-vert-fonce:#002F2F;
 
 	background-color:$couleur-vert-fonce;
 	padding-bottom:10px;
+}
+
+.border-btn-inscrire {
+
+	background-color: rgba(255,255,255,.25);
+	padding: 15px;
+	border-radius: 8px;
+	width:50%;
+}
+
+.btn-inscrire {
+	background-image: linear-gradient(to bottom,#335A33 0,#429641 100%);
+	padding: 16px 16px 16px 16px;
+	font-size:17px;
+
 }
 

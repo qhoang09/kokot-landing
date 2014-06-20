@@ -1,23 +1,44 @@
 /* line 1, scss/_head.scss */
-.head-img-background {
-  background-image: url(../images/head.jpg);
+#section-head {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  max-height: 100%;
+  background-image: url(../images/bunkr.jpg);
   background-size: cover;
-  background-position: 0px,250px;
-  width: 100%;
-  height: 400px;
-  margin-top: -20px;
-}
-
-/* line 11, scss/_head.scss */
-.head-bouton-inscrire {
-  font-size: 2em;
 }
 
 /* line 17, scss/_head.scss */
+.head-img-background {
+  background-position: 0px,250px;
+  width: 100%;
+  height: 600px;
+  margin-top: -20px;
+}
+
+/* line 25, scss/_head.scss */
+.head-bouton-inscrire {
+  font-size: 1em;
+}
+
+/* line 31, scss/_head.scss */
 .head-titre {
-  margin-top: 25%;
-  font-size: 2em;
+  margin-top: 5%;
+  font-size: 50px;
+  line-height: 60px;
   color: #efecca;
+  letter-spacing: -2px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+  text-align: center;
+}
+
+/* line 45, scss/_head.scss */
+.head-form {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 15px;
+  border-radius: 8px;
 }
 
 /* line 1, scss/_valeur.scss */
@@ -36,40 +57,40 @@
   background-color: #a7a37e;
 }
 
-/* line 2, scss/_scenario.scss */
+/* line 4, scss/_scenario.scss */
 #features_1 {
   background-color: #efecca;
 }
 
-/* line 8, scss/_scenario.scss */
+/* line 12, scss/_scenario.scss */
 #features1a_image {
   position: absolute;
 }
 
-/* line 14, scss/_scenario.scss */
+/* line 18, scss/_scenario.scss */
 #features1b_image {
   position: relative;
 }
 
-/* line 19, scss/_scenario.scss */
+/* line 23, scss/_scenario.scss */
 #features_1_content {
   color: black;
   margin-top: 10%;
 }
 
-/* line 25, scss/_scenario.scss */
+/* line 33, scss/_scenario.scss */
 #features_2_content {
   color: black;
   margin-top: 10%;
 }
 
-/* line 31, scss/_scenario.scss */
+/* line 44, scss/_scenario.scss */
 #features_3_content {
   color: black;
   margin-top: 10%;
 }
 
-/* line 37, scss/_scenario.scss */
+/* line 53, scss/_scenario.scss */
 #features_4_content {
   color: black;
   margin-top: 10%;
@@ -86,38 +107,38 @@ footer {
   background-color: #efecca;
 }
 
-/* line 7, scss/_footer.scss */
+/* line 9, scss/_footer.scss */
 #newsletter {
   background-color: #a7a37e;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-/* line 14, scss/_footer.scss */
+/* line 16, scss/_footer.scss */
 .social-media-icon {
   display: block;
 }
 
-/* line 19, scss/_footer.scss */
+/* line 21, scss/_footer.scss */
 #footer-main ul {
   list-style: none;
 }
 
-/* line 24, scss/_footer.scss */
+/* line 26, scss/_footer.scss */
 .sm-icon {
-  opacity: 0.6q;
+  opacity: 0.6;
   padding: 0px;
   width: 50px;
   height: 50px;
 }
 
-/* line 32, scss/_footer.scss */
+/* line 34, scss/_footer.scss */
 .sm-icon:hover {
   opacity: 1;
   border-color: red;
 }
 
-/* line 38, scss/_footer.scss */
+/* line 40, scss/_footer.scss */
 .social-media-bubble {
   background: #b1b1b1;
   padding-top: 15px;
@@ -131,13 +152,43 @@ footer {
   color: #efecca;
 }
 
-/* line 18, scss/main.scss */
+/* line 54, scss/_footer.scss */
+.smooth {
+  color: #046380;
+}
+
+/* line 1, scss/_navbar.scss */
+.navbar-kokot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 3;
+}
+
+/* line 19, scss/main.scss */
 .bouton-cte {
   padding-top: 10px;
 }
 
-/* line 24, scss/main.scss */
+/* line 25, scss/main.scss */
 #CTE-apres-pricing {
   background-color: #002f2f;
   padding-bottom: 10px;
+}
+
+/* line 31, scss/main.scss */
+.border-btn-inscrire {
+  background-color: rgba(255, 255, 255, 0);
+  padding: 15px;
+  border-radius: 8px;
+  width: 50%;
+}
+
+/* line 39, scss/main.scss */
+.btn-inscrire {
+  background-image: linear-gradient(to bottom, #335a33 0%, #429641 100%);
+  padding: 16px 16px 16px 16px;
+  font-size: 17px;
 }
