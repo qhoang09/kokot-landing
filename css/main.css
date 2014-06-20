@@ -78,19 +78,34 @@
   margin-top: 10%;
 }
 
-/* line 33, scss/_scenario.scss */
+/* line 29, scss/_scenario.scss */
+#features_2 {
+  background-color: #efecca;
+}
+
+/* line 34, scss/_scenario.scss */
 #features_2_content {
   color: black;
   margin-top: 10%;
 }
 
-/* line 44, scss/_scenario.scss */
+/* line 40, scss/_scenario.scss */
+#features_3 {
+  background-color: #efecca;
+}
+
+/* line 46, scss/_scenario.scss */
 #features_3_content {
   color: black;
   margin-top: 10%;
 }
 
-/* line 53, scss/_scenario.scss */
+/* line 52, scss/_scenario.scss */
+#features_4 {
+  background-color: #efecca;
+}
+
+/* line 56, scss/_scenario.scss */
 #features_4_content {
   color: black;
   margin-top: 10%;
@@ -165,6 +180,7 @@ footer {
   right: 0;
   position: fixed;
   z-index: 3;
+  background-color: yellow;
 }
 
 /* line 19, scss/main.scss */
