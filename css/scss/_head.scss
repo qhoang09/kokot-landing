@@ -1,5 +1,4 @@
 #section-head{
-
 	top: 0;
 	left: 0;
 	right: 0;
@@ -8,21 +7,16 @@
 	max-height: 100%;
 	background-image:url(../images/bunkr.jpg);
 	background-size:cover;
-}
-
-
-.head-img-background{
-	background-position:0px,250px;
-  // -webkit-background-size: cover;
-	width:100%;
 	height:600px;
-	margin-top:-20px;
+
+
 }
+
 
 
 
 .head-titre{
-	margin-top:15%;
+	margin-top:20%;
 	font-size:50px;
 	line-height: 60px;
 	color:$couleur-beige-clair;
@@ -39,11 +33,29 @@
 
 }
 
-.head-form{
+.active {
+	background-color: transparent;
+}
+// ============================================================================
+// ------------------------ Formulaire ------------------------------------
+// ============================================================================
+.head-fond-transparent{
 	height:80px;
 	font-size:1em;
 	width:60%;
-	background-color: rgba(255,255,255,.25);
+	background-color: rgba(255,255,255, 0.3);
+	padding: 20px;
+	padding-top:0px;
+	border-radius: 8px;
+	position:relative;
+
+
+}
+
+.head-form-bas{
+	height:80px;
+	font-size:1em;
+	width:60%;
 	padding: 20px;
 	padding-top:0px;
 	border-radius: 8px;
@@ -53,16 +65,43 @@
 
 }
 
+form#mc-embedded-subscribe-form {
+	div {
+		// display: inline-block;
+	}
 
-.validate {
+	.champ-email {
+		position:absolute;
 
+		top: 15px;
+		bottom: 15px;
+		right:300px;
+		left:15px;
+
+		label {
+			display: block;
+			height:0px;
+			width:0px;
+			margin:0px;
+		}
+	}
+
+	input#mce-EMAIL{
+		font-size:18px;
+		padding-left: 15px;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		width: 100%;
+	}
 
 }
 
 
 
+// ============================================================================
+// ------------------------ Bouton essayer ------------------------------------
+// ============================================================================
 .bouton-essayer {
-	border-radius: 8px;
 	color: #fff;
 	background-color: $couleur-vert-fonce;
 	border-color: $couleur-vert-fonce;
@@ -71,45 +110,117 @@
 
 	
 	position:absolute;
-	top:10px;
-	right:0;
+	top:15px;
+	right:15px;
 	bottom:10px;
 
-	height:80%;
-	width:300px;
+	height:65%;
+	width:285px;
 
 }
 
 .bouton-essayer:hover{
 	color: #fff;
-	background-color: rgba(0,47,47,0.7);
+	background-color: rgba(0,47,47,0.8);
 	border-color: rgba(0,47,47,0.7);
 
 
 }
 
+// ============================================================================
+// ---------------------- Champ de l'email -----------------------------------
+// ============================================================================
+
 .champ-email {
 
-	font-size:17px;
+	// font-size:17px;
 
-	position:absolute;
-	top: 15px;
-	left:15px;
-	right:300px;
-	padding: 0;
-	margin: 0;
-	font-size: 0;
+	// padding: 0;
+	// margin: 0;
+	// font-size: 0;
 }
 
-form#mc-embedded-subscribe-form div {
-	display: inline-block;
+
+// ============================================================================
+// ----------------------------Media queries-----------------------------------
+// ============================================================================
+
+@media screen and (max-width: 800px) {
+
+
+
+	
+	.head-fond-transparent{
+		height:135px;
+		font-size:1em;
+		width:80%;
+		background-color: rgba(255,255,255,.3);
+		padding: 20px;
+		padding-top:0px;
+		border-radius: 8px;
+		position:relative;
+
+
+	}
+	.bouton-essayer {
+		position:static;
+		display:block;
+		color: #fff;
+		background-color: $couleur-vert-fonce;
+		border-color: $couleur-vert-fonce;
+		font-size:14px;
+
+
+		
+		top:15px;
+		right:15px;
+		bottom:10px;
+
+		height:50px;
+		width:100%;
+
+	}
+
+
+	.head-titre{
+		margin-top:35%;
+		font-size:35px;
+		line-height: 45px;
+		color:$couleur-beige-clair;
+		letter-spacing: -1px;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+		text-align: center;
+	}
+
+	form#mc-embedded-subscribe-form {
+
+
+	.champ-email {
+		display:block;
+		position:static;
+
+		top: 15px;
+		bottom: 15px;
+		right:300px;
+		left:15px;
+
+		padding-top:15px;
+
+		label {
+			display: block;
+			height:0px;
+			width:0px;
+			margin:0px;
+		}
+	}
+
+	input#mce-EMAIL{
+		font-size:18px;
+		padding-left: 15px;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		width: 100%;
+	}
 
 }
-
-form#mc-embedded-subscribe-form input#mce-EMAIL{
-	font-size:18px;
-	padding-left: 15px;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	width:100%;
 }

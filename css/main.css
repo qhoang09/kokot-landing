@@ -8,79 +8,64 @@
   max-height: 100%;
   background-image: url(../images/bunkr.jpg);
   background-size: cover;
-}
-
-/* line 14, scss/_head.scss */
-.head-img-background {
-  background-position: 0px,250px;
-  width: 100%;
   height: 600px;
-  margin-top: -20px;
 }
 
-/* line 24, scss/_head.scss */
+/* line 18, scss/_head.scss */
 .head-titre {
-  margin-top: 15%;
+  margin-top: 20%;
   font-size: 50px;
   line-height: 60px;
   color: #efecca;
   letter-spacing: -2px;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
   text-align: center;
 }
 
+/* line 36, scss/_head.scss */
+.active {
+  background-color: transparent;
+}
+
 /* line 42, scss/_head.scss */
-.head-form {
+.head-fond-transparent {
   height: 80px;
   font-size: 1em;
   width: 60%;
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0);
   padding: 20px;
   padding-top: 0px;
   border-radius: 8px;
   position: relative;
 }
 
-/* line 64, scss/_head.scss */
-.bouton-essayer {
+/* line 55, scss/_head.scss */
+.head-form-bas {
+  height: 80px;
+  font-size: 1em;
+  width: 60%;
+  padding: 20px;
+  padding-top: 0px;
   border-radius: 8px;
-  color: #fff;
-  background-color: #002f2f;
-  border-color: #002f2f;
-  font-size: 17px;
-  position: absolute;
-  top: 10px;
-  right: 0;
-  bottom: 10px;
-  height: 80%;
-  width: 300px;
+  position: relative;
 }
 
-/* line 83, scss/_head.scss */
-.bouton-essayer:hover {
-  color: #fff;
-  background-color: rgba(0, 47, 47, 0.7);
-  border-color: rgba(0, 47, 47, 0.7);
-}
-
-/* line 91, scss/_head.scss */
-.champ-email {
-  font-size: 17px;
+/* line 73, scss/_head.scss */
+form#mc-embedded-subscribe-form .champ-email {
   position: absolute;
   top: 15px;
-  left: 15px;
+  bottom: 15px;
   right: 300px;
-  padding: 0;
-  margin: 0;
-  font-size: 0;
+  left: 15px;
 }
-
-/* line 104, scss/_head.scss */
-form#mc-embedded-subscribe-form div {
-  display: inline-block;
+/* line 81, scss/_head.scss */
+form#mc-embedded-subscribe-form .champ-email label {
+  display: block;
+  height: 0px;
+  width: 0px;
+  margin: 0px;
 }
-
-/* line 109, scss/_head.scss */
+/* line 89, scss/_head.scss */
 form#mc-embedded-subscribe-form input#mce-EMAIL {
   font-size: 18px;
   padding-left: 15px;
@@ -89,6 +74,92 @@ form#mc-embedded-subscribe-form input#mce-EMAIL {
   width: 100%;
 }
 
+/* line 104, scss/_head.scss */
+.bouton-essayer {
+  color: #fff;
+  background-color: #002f2f;
+  border-color: #002f2f;
+  font-size: 17px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  bottom: 10px;
+  height: 65%;
+  width: 285px;
+}
+
+/* line 122, scss/_head.scss */
+.bouton-essayer:hover {
+  color: #fff;
+  background-color: rgba(0, 47, 47, 0);
+  border-color: rgba(0, 47, 47, 0);
+}
+
+@media screen and (max-width: 800px) {
+  /* line 153, scss/_head.scss */
+  .head-fond-transparent {
+    height: 135px;
+    font-size: 1em;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px;
+    padding-top: 0px;
+    border-radius: 8px;
+    position: relative;
+  }
+
+  /* line 165, scss/_head.scss */
+  .bouton-essayer {
+    position: static;
+    display: block;
+    color: #fff;
+    background-color: #002f2f;
+    border-color: #002f2f;
+    font-size: 14px;
+    top: 15px;
+    right: 15px;
+    bottom: 10px;
+    height: 50px;
+    width: 100%;
+  }
+
+  /* line 185, scss/_head.scss */
+  .head-titre {
+    margin-top: 35%;
+    font-size: 35px;
+    line-height: 45px;
+    color: #efecca;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0);
+    text-align: center;
+  }
+
+  /* line 198, scss/_head.scss */
+  form#mc-embedded-subscribe-form .champ-email {
+    display: block;
+    position: static;
+    top: 15px;
+    bottom: 15px;
+    right: 300px;
+    left: 15px;
+    padding-top: 15px;
+  }
+  /* line 209, scss/_head.scss */
+  form#mc-embedded-subscribe-form .champ-email label {
+    display: block;
+    height: 0px;
+    width: 0px;
+    margin: 0px;
+  }
+  /* line 217, scss/_head.scss */
+  form#mc-embedded-subscribe-form input#mce-EMAIL {
+    font-size: 18px;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    width: 100%;
+  }
+}
 /* line 1, scss/_valeur.scss */
 #section-valeur {
   background-color: #a7a37e;
@@ -98,6 +169,7 @@ form#mc-embedded-subscribe-form input#mce-EMAIL {
 #section-comptable {
   color: #efecca;
   background-color: #002f2f;
+  padding: 15px;
 }
 
 /* line 1, scss/_valeur.scss */
@@ -108,52 +180,56 @@ form#mc-embedded-subscribe-form input#mce-EMAIL {
 /* line 4, scss/_scenario.scss */
 #features_1 {
   background-color: #efecca;
+  padding: 20px;
 }
 
-/* line 12, scss/_scenario.scss */
+/* line 14, scss/_scenario.scss */
 #features1a_image {
   position: absolute;
 }
 
-/* line 18, scss/_scenario.scss */
+/* line 20, scss/_scenario.scss */
 #features1b_image {
   position: relative;
 }
 
-/* line 23, scss/_scenario.scss */
+/* line 25, scss/_scenario.scss */
 #features_1_content {
   color: black;
   margin-top: 10%;
 }
 
-/* line 29, scss/_scenario.scss */
+/* line 31, scss/_scenario.scss */
 #features_2 {
   background-color: #efecca;
+  padding: 20px;
 }
 
-/* line 34, scss/_scenario.scss */
+/* line 38, scss/_scenario.scss */
 #features_2_content {
   color: black;
   margin-top: 10%;
 }
 
-/* line 40, scss/_scenario.scss */
+/* line 44, scss/_scenario.scss */
 #features_3 {
   background-color: #efecca;
+  padding: 20px;
 }
 
-/* line 46, scss/_scenario.scss */
+/* line 52, scss/_scenario.scss */
 #features_3_content {
   color: black;
   margin-top: 10%;
 }
 
-/* line 52, scss/_scenario.scss */
+/* line 59, scss/_scenario.scss */
 #features_4 {
   background-color: #efecca;
+  padding: 20px;
 }
 
-/* line 56, scss/_scenario.scss */
+/* line 65, scss/_scenario.scss */
 #features_4_content {
   color: black;
   margin-top: 10%;
@@ -163,6 +239,7 @@ form#mc-embedded-subscribe-form input#mce-EMAIL {
 #section-pricing {
   background-color: #002f2f;
   color: #efecca;
+  padding: 15px;
 }
 
 /* line 1, scss/_footer.scss */
@@ -221,14 +298,48 @@ footer {
 }
 
 /* line 1, scss/_navbar.scss */
-.navbar-kokot {
-  position: absolute;
+.navbar {
   top: 0;
+  height: 60px;
   left: 0;
   right: 0;
   position: fixed;
   z-index: 3;
-  background-color: yellow;
+  border-radius: 0px;
+  color: #a7a37e;
+  background-color: rgba(0, 47, 47, 0.5);
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom-style: solide;
+  border-bottom-color: #efecca;
+}
+
+/* line 22, scss/_navbar.scss */
+.navbar-default .navbar-brand {
+  color: #efecca;
+}
+
+/* line 26, scss/_navbar.scss */
+.navbar-element {
+  color: #efecca;
+  text-transform: uppercase;
+}
+
+/* line 32, scss/_navbar.scss */
+.navbar-element > li > a:hover {
+  background-color: red;
+}
+
+/* line 39, scss/_navbar.scss */
+.navbar-default {
+  background-image: none;
+}
+
+/* line 43, scss/_navbar.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #efecca;
+  font-size: 18px;
 }
 
 /* line 1, scss/_fonctionnalites.scss */
@@ -244,7 +355,7 @@ footer {
 /* line 25, scss/main.scss */
 #CTE-apres-pricing {
   background-color: #a7a37e;
-  padding-bottom: 10px;
+  padding: 15px;
 }
 
 /* line 31, scss/main.scss */

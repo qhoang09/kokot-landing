@@ -1,11 +1,48 @@
-.navbar-kokot{
-
-	position:absolute;
+.navbar{
 	top:0;
+	height:60px;
 	left:0;
 	right:0;
 	position:fixed;
 	z-index:3;
+	border-radius:0px;
 
-	background-color:yellow;
+
+	color:$couleur-beige-fonce;
+
+	background-color:rgba(0,47,47,0.5);
+	border-left:none;
+	border-right:none;
+	border-top:none;
+	border-bottom-style:solide;
+	border-bottom-color:$couleur-beige-clair;
+
+}
+
+.navbar-default .navbar-brand {
+color: $couleur-beige-clair;
+}
+
+.navbar-element{
+
+	color:$couleur-beige-clair;
+	text-transform:uppercase;
+}
+
+.navbar-element>li>a:hover {
+
+	background-color:red;
+}
+
+
+
+.navbar-default {
+	background-image: none;
+}
+
+.navbar-default .navbar-nav>li>a {
+
+	color:$couleur-beige-clair;
+	font-size:18px;
+
 }
