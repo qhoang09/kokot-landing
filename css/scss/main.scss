@@ -16,6 +16,7 @@ $couleur-vert-fonce:#002F2F;
 @import 'navbar';
 @import 'fonctionnalites';
 
+
 .bouton-cte{
 
 	padding-top:10px;
@@ -26,6 +27,8 @@ $couleur-vert-fonce:#002F2F;
 
 	background-color:$couleur-beige-fonce;
 	padding:15px;
+	height:100%;
+
 }
 
 .border-btn-inscrire {

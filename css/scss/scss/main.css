@@ -32,15 +32,6 @@
   border-radius: 8px;
   position: relative; }
 
-.head-fond-transparent-bas {
-  height: 80px;
-  font-size: 1em;
-  width: 60%;
-  padding: 20px;
-  padding-top: 0px;
-  border-radius: 8px;
-  position: relative; }
-
 .head-form-bas {
   height: 80px;
   font-size: 1em;
@@ -96,15 +87,6 @@ form#mc-embedded-subscribe-form input#mce-EMAIL {
     border-radius: 8px;
     position: relative; }
 
-  .head-fond-transparent-bas {
-    height: 130px;
-    font-size: 1em;
-    width: 60%;
-    padding: 20px;
-    padding-top: 0px;
-    border-radius: 8px;
-    position: relative; }
-
   .bouton-essayer {
     position: static;
     display: block;
@@ -153,18 +135,6 @@ form#mc-embedded-subscribe-form input#mce-EMAIL {
   color: #efecca;
   background-color: #002f2f;
   padding: 15px; }
-  #section-comptable .container:before {
-    content: '';
-    border-top: dashed 2px black;
-    width: 200%;
-    margin-left: -30px;
-    margin-top: -10px; }
-  #section-comptable .container:after {
-    content: '';
-    border-top: dashed 2px black;
-    width: 120%;
-    margin-left: -30px;
-    margin-bottom: -10px; }
 
 #section-valeur {
   background-color: #a7a37e; }
@@ -293,8 +263,8 @@ footer {
 .navbar-default .navbar-nav .open .dropdown-menu > li > a {
   color: #efecca; }
 
-.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-  color: #a7a37e; }
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: black; }
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #efecca; }
@@ -313,8 +283,7 @@ footer {
 
 #CTE-apres-pricing {
   background-color: #a7a37e;
-  padding: 15px;
-  height: 100%; }
+  padding: 15px; }
 
 .border-btn-inscrire {
   background-color: rgba(255, 255, 255, 0.25);

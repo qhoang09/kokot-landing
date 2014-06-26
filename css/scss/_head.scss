@@ -9,7 +9,6 @@
 	background-size:cover;
 	height:600px;
 
-
 }
 
 
@@ -23,6 +22,7 @@
 	letter-spacing: -2px;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 	text-align: center;
+	margin-bottom:35px;
 }
 
 .head-bouton-inscrire {
@@ -48,8 +48,17 @@
 	padding-top:0px;
 	border-radius: 8px;
 	position:relative;
+}
 
-
+//Call to action en bas
+.head-fond-transparent-bas{
+	height:80px;
+	font-size:1em;
+	width:60%;
+	padding: 20px;
+	padding-top:0px;
+	border-radius: 8px;
+	position:relative;
 }
 
 .head-form-bas{
@@ -162,6 +171,17 @@ form#mc-embedded-subscribe-form {
 
 
 	}
+
+	.head-fond-transparent-bas{
+	height:130px;
+	font-size:1em;
+	width:60%;
+	padding: 20px;
+	padding-top:0px;
+	border-radius: 8px;
+	position:relative;
+	}
+
 	.bouton-essayer {
 		position:static;
 		display:block;

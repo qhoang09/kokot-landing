@@ -7,7 +7,6 @@
 	z-index:3;
 	border-radius:0px;
 
-
 	color:$couleur-beige-fonce;
 
 	background-color:rgba(0,47,47,0.5);
@@ -44,5 +43,53 @@ color: $couleur-beige-clair;
 
 	color:$couleur-beige-clair;
 	font-size:18px;
+
+}
+
+.navbar-collapse.in{
+	background-color:$couleur-vert-fonce;
+}
+
+
+
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+
+	color:$couleur-beige-fonce;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+
+	color:$couleur-beige-clair;
+
+}
+
+//permet de rendre la couleur du 'dropdown' noir
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{
+
+
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-default .navbar-nav .open .dropdown-menu>li>a:focus {
+
+	color:$couleur-beige-fonce;
+}
+
+//permet de modifier les barres horizontale du bout menu quand on est en responsive
+
+.navbar-default .navbar-toggle .icon-bar {
+
+	background-color:$couleur-beige-clair;
+}
+
+//Permet de modifier le background color
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+
+	background-color:$couleur-vert-fonce;
+}
+
+//dropdown fond beige foncé
+.dropdown-menu {
+	background-color:$couleur-beige-fonce;
 
 }

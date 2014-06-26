@@ -2,4 +2,24 @@
 	color:$couleur-beige-clair;
 	background-color:$couleur-vert-fonce;
 	padding:15px;
+
+
+	//permet de tracer les lignes transparentes
+
+	.container:before {
+		content: '';
+		border-top: dashed 2px black;
+		width: 200%;
+		margin-left: -30px;
+		margin-top:-10px;
+	}
+
+	.container:after {
+		content: '';
+		border-top: dashed 2px black;
+		width: 120%;	
+		margin-left:-30px;
+		margin-bottom:-10px;
+	}
 }
+
